@@ -1,0 +1,246 @@
+/* ===========================
+   Gallery Page
+=========================== */
+
+.gallery-section{
+    margin-top:40px;
+}
+
+.section-title{
+
+    color:#2e7d32;
+
+    font-size:32px;
+
+    margin-bottom:25px;
+
+    border-left:6px solid #4caf50;
+
+    padding-left:15px;
+
+}
+
+.gallery-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:25px;
+
+}
+
+.gallery-card{
+
+    background:#ffffff;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.12);
+
+    transition:.35s;
+
+}
+
+.gallery-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 15px 30px rgba(0,0,0,.18);
+
+}
+
+.gallery-card img{
+
+    width:100%;
+
+    height:230px;
+
+    object-fit:cover;
+
+    display:block;
+
+}
+
+.gallery-content{
+
+    padding:18px;
+
+}
+
+.gallery-content h3{
+
+    color:#2e7d32;
+
+    margin-bottom:12px;
+
+    font-size:24px;
+
+}
+
+.gallery-content p{
+
+    color:#555;
+
+    line-height:26px;
+
+    text-align:justify;
+
+}
+
+
+.garden-facts{
+
+    margin-top:60px;
+
+}
+
+.fact-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:25px;
+
+}
+
+.fact-card{
+
+    background:#4caf50;
+
+    color:white;
+
+    text-align:center;
+
+    padding:35px 20px;
+
+    border-radius:15px;
+
+    transition:.35s;
+
+}
+
+.fact-card:hover{
+
+    transform:translateY(-8px);
+
+    background:#2e7d32;
+
+}
+
+.fact-card h3{
+
+    font-size:42px;
+
+    margin-bottom:10px;
+
+}
+
+.fact-card p{
+
+    font-size:18px;
+
+}
+
+
+.visitor-section{
+
+    margin-top:60px;
+
+}
+
+.visitor-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:25px;
+
+}
+
+.visitor-card{
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    text-align:center;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.12);
+
+    transition:.35s;
+
+}
+
+.visitor-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.visitor-card i{
+
+    font-size:45px;
+
+    color:#4caf50;
+
+    margin-bottom:20px;
+
+}
+
+.visitor-card h3{
+
+    color:#2e7d32;
+
+    margin-bottom:15px;
+
+}
+
+.visitor-card p{
+
+    color:#555;
+
+    line-height:28px;
+
+}
+
+/* Garden Rules*/
+
+.rules{
+
+    background:white;
+
+    padding:35px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.12);
+
+}
+
+.rules ul{
+
+    list-style:none;
+
+}
+
+.rules li{
+
+    padding:12px 0;
+
+    border-bottom:1px solid #eeeeee;
+
+    color:#444;
+
+    font-size:17px;
+
+}
+
+
+
