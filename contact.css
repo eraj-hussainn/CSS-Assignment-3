@@ -1,5 +1,5 @@
 .contact-banner {
-  background: url("images/contact-banner.jpg");
+  background: url("images/about-banner.jpg");
 
   background-size: cover;
 
@@ -184,6 +184,10 @@
   background: #2e7d32;
 }
 
+.contact-form-section input,
+textarea{
+  margin-top: 15px;
+}
 .opening-hours {
   background: #ffffff;
 

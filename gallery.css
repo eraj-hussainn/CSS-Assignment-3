@@ -1,6 +1,4 @@
-/* ===========================
-   Gallery Page
-=========================== */
+/* Gallery Page*/
 
 .gallery-section{
     margin-top:40px;
@@ -19,6 +17,7 @@
     padding-left:15px;
 
 }
+/* gallery-card-section */
 
 .gallery-grid{
 
@@ -90,13 +89,12 @@
 
 }
 
-
 .garden-facts{
 
     margin-top:60px;
 
 }
-
+ /* Garden Highlights */
 .fact-grid{
 
     display:grid;
